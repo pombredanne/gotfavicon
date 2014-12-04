@@ -89,5 +89,5 @@ func respHandler(res http.ResponseWriter, req *http.Request) {
 
 func main() {
 	http.HandleFunc("/", respHandler)
-	log.Fatal(http.ListenAndServe(":8008", nil))
+	log.Fatal(http.ListenAndServe(":8000", nil))
 }
